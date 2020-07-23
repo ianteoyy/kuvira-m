@@ -31,6 +31,10 @@ button.btn {
   color: #f51167;
 }
 
+.hidden {
+  display: none;
+}
+
 .load-more {
   border: 2px solid black;
   font-weight: 600;
