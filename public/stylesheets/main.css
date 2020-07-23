@@ -1,0 +1,215 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2.section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.store-buttons {
+  position: relative;
+  top: 80%;
+  left: 55%;
+}
+
+button.btn {
+  border-radius: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn-pink {
+  background-color: #f51167;
+  color: #ebebeb;
+}
+
+.text-pink {
+  color: #f51167;
+}
+
+.load-more {
+  border: 2px solid black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+#top-nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+}
+#top-nav-bar #top-search > input {
+  border-radius: 1rem;
+}
+#top-nav-bar #top-search .search-btn {
+  position: absolute;
+  right: 0.5rem;
+}
+#top-nav-bar .dropdown-menu-right {
+  position: absolute;
+}
+
+#store-nav > ul > li {
+  margin: 0 1rem;
+}
+#store-nav > ul > li > a {
+  font-weight: 700;
+}
+
+#new-arrivals-hero .jumbotron {
+  background-image: url("../../img/new-arrivals.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #ebebeb;
+}
+#new-arrivals-hero .jumbotron .jumbotron-left {
+  width: 40%;
+  align-self: flex-end;
+}
+#new-arrivals-hero .jumbotron .jumbotron-left > h4,
+#new-arrivals-hero .jumbotron .jumbotron-left h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#new-arrivals-hero .jumbotron .jumbotron-left .jumbotron-buttons button {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#new-arrivals-hero .jumbotron .jumbotron-right {
+  background-color: #f51167;
+  width: 10em;
+  height: 10em;
+  padding-top: 1em;
+  align-self: flex-end;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 35%;
+  margin-top: auto;
+}
+#new-arrivals-hero .jumbotron .jumbotron-right span {
+  text-transform: uppercase;
+}
+#new-arrivals-hero .jumbotron .jumbotron-right h1 {
+  line-height: 1;
+}
+
+#store-features {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#store-features > div {
+  height: 5rem;
+}
+#store-features > div > span {
+  margin-right: 0.5rem;
+}
+#store-features > div:nth-child(even) {
+  background-color: #f51167;
+  color: #ebebeb;
+}
+
+#latest-products #carouselControls > .carousel-control-next,
+#latest-products #carouselControls .carousel-control-prev {
+  width: unset;
+}
+#latest-products #carouselControls > .carousel-control-next > .icon-circle-right,
+#latest-products #carouselControls > .carousel-control-next .icon-circle-left,
+#latest-products #carouselControls .carousel-control-prev > .icon-circle-right,
+#latest-products #carouselControls .carousel-control-prev .icon-circle-left {
+  scale: 2;
+  color: black;
+}
+#latest-products #carouselControls > .row {
+  margin: unset;
+}
+
+#top-selling-products .categories button {
+  background-color: #ebebeb;
+}
+
+#contact-us .container {
+  position: relative;
+}
+#contact-us .container .contact-us-overlay {
+  color: #ebebeb;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+
+#footer {
+  font-size: 0.8em;
+}
+#footer h2 {
+  font-weight: 700;
+}
+#footer .footer-section {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+#footer .footer-section ~ * {
+  color: #6c757d;
+}
+#footer .links ul {
+  padding-left: 1em;
+  list-style: none;
+}
+#footer .links ul a {
+  color: inherit;
+}
+#footer .links ul li::before {
+  content: "•";
+  color: #f51167;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+#footer .blog .blog-article .blog-title {
+  color: #606060;
+}
+#footer .blog .blog-article img {
+  object-fit: cover;
+}
+#footer .blog .blog-article small {
+  font-size: 0.6em;
+}
+#footer .blog .blog-article a {
+  font-size: 0.7em;
+}
+#footer .blog .blog-article p {
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 12px;
+  }
+
+  #new-arrivals-hero > .jumbotron {
+    height: 50vh;
+  }
+  #new-arrivals-hero > .jumbotron .jumbotron-left {
+    width: 60%;
+  }
+  #new-arrivals-hero > .jumbotron .jumbotron-left h1 {
+    font-size: 2em;
+  }
+  #new-arrivals-hero > .jumbotron .jumbotron-left h4,
+#new-arrivals-hero > .jumbotron .jumbotron-left button {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
