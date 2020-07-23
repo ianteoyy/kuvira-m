@@ -169,6 +169,10 @@ button.btn {
 #footer .footer-section ~ * {
   color: #6c757d;
 }
+#footer .card-icons span {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
 #footer .links ul {
   padding-left: 1em;
   list-style: none;
