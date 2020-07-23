@@ -12,8 +12,6 @@ $(document).ready(function () {
     { fileName: "topselling-15", description: "Burgundy sweater" },
   ];
   $(".load-more").click(function (e) {
-    console.log(e);
-
     for (let i = 0; i < 4; i++) {
       let item = itemList.shift();
       $("#top-selling-products .product-list")
@@ -31,7 +29,12 @@ $(document).ready(function () {
         <span class="price">$35.00</span>
       </div>
     </div>`);
-      console.log(itemList);
     }
+  });
+
+  $(".add-to-cart").click(function (e) {
+    let cartQuantity = parseInt($(".cart-quantity").attr('data-cart-quantity'), 10)
+    cartQuantity++
+    $(".cart-quantity").attr("data-cart-quantity", cartQuantity);
   });
 });

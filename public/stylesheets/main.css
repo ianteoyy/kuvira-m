@@ -58,6 +58,19 @@ button.btn {
   position: absolute;
   right: 0.5rem;
 }
+#top-nav-bar .cart-quantity::after {
+  content: attr(data-cart-quantity);
+  transform: translate(-40%, -40%);
+  background-color: #f51167;
+  position: absolute;
+  color: #ebebeb;
+  font-size: 0.7em;
+  padding: 0.3em 0.5em;
+  border-radius: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 #top-nav-bar .dropdown-menu-right {
   position: absolute;
 }
