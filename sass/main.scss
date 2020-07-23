@@ -163,6 +163,7 @@ button.btn {
 }
 
 #contact-us {
+  flex-wrap: wrap;
   .container {
     position: relative;
     .contact-us-overlay {
@@ -221,6 +222,22 @@ button.btn {
       p {
         margin: 0;
       }
+    }
+  }
+  hr {
+    border-top: 1px solid #6c757d;
+    flex: 0 0 100%;
+  }
+  .social-media-group {
+    color: $white-color;
+    span {
+      font-size: 1.5em;
+    }
+    a {
+      color: $white-color;
+      font-size: 0.8em;
+      font-weight: 700;
+      text-transform: uppercase;
     }
   }
 }
