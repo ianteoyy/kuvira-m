@@ -74,6 +74,19 @@ button.btn {
       font-weight: 700;
     }
   }
+  .new::before{
+    content: "new";
+    transform: translate(50%, -35%);
+    background-color: $pink-color;
+    position: absolute;
+    color: $white-color;
+    font-size: 0.7em;
+    padding: 0 0.5em;
+    border-radius: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
 
 #new-arrivals-hero {

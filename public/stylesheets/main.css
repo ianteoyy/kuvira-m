@@ -68,6 +68,19 @@ button.btn {
 #store-nav > ul > li > a {
   font-weight: 700;
 }
+#store-nav .new::before {
+  content: "new";
+  transform: translate(50%, -35%);
+  background-color: #f51167;
+  position: absolute;
+  color: #ebebeb;
+  font-size: 0.7em;
+  padding: 0 0.5em;
+  border-radius: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 #new-arrivals-hero .jumbotron {
   background-image: url("../../img/new-arrivals.jpg");
