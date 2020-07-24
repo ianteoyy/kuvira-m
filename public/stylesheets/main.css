@@ -251,6 +251,9 @@ button.btn {
   body {
     font-size: 12px;
   }
+  body h2 {
+    font-size: 2em;
+  }
 
   #new-arrivals-hero > .jumbotron {
     height: 50vh;
@@ -264,6 +267,12 @@ button.btn {
   #new-arrivals-hero > .jumbotron .jumbotron-left h4,
 #new-arrivals-hero > .jumbotron .jumbotron-left button {
     font-size: 1em;
+  }
+
+  #contact-us .container .contact-us-overlay {
+    color: unset;
+    position: static;
+    text-align: center;
   }
 }
 

@@ -62,7 +62,7 @@ button.btn {
     }
   }
 
-  .cart-quantity::after{
+  .cart-quantity::after {
     content: attr(data-cart-quantity);
     transform: translate(-40%, -40%);
     background-color: $pink-color;
@@ -88,7 +88,7 @@ button.btn {
       font-weight: 700;
     }
   }
-  .new::before{
+  .new::before {
     content: "new";
     transform: translate(50%, -35%);
     background-color: $pink-color;
@@ -280,6 +280,9 @@ button.btn {
 @media (max-width: 767.98px) {
   body {
     font-size: 12px;
+    h2 {
+      font-size: 2em;
+    }
   }
   #new-arrivals-hero > .jumbotron {
     height: 50vh;
@@ -291,6 +294,16 @@ button.btn {
       h4,
       button {
         font-size: 1em;
+      }
+    }
+  }
+
+  #contact-us {
+    .container {
+      .contact-us-overlay {
+        color: unset;
+        position: static;
+        text-align: center;
       }
     }
   }
