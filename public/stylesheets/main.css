@@ -10,10 +10,16 @@ h2.section-title {
   margin-bottom: 1em;
 }
 
-.store-buttons {
+.product-list {
   position: relative;
-  top: 80%;
-  left: 55%;
+}
+.product-list .store-buttons {
+  position: absolute;
+  left: 15px;
+  right: 20px;
+  bottom: 2em;
+  display: flex;
+  justify-content: flex-end;
 }
 
 button.btn {
@@ -247,6 +253,19 @@ button.btn {
   text-transform: uppercase;
 }
 
+@media (max-width: 991.98px) {
+  .product-list .store-buttons {
+    bottom: 3em;
+  }
+  .product-list .store-buttons button {
+    padding: 0.2em 0;
+  }
+  .product-list .store-buttons .icon-shopping-bag,
+.product-list .store-buttons .icon-heart {
+    line-height: 0.8;
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 767.98px) {
   body {
     font-size: 12px;
@@ -273,6 +292,12 @@ button.btn {
     color: unset;
     position: static;
     text-align: center;
+  }
+}
+@media (max-width: 329.98px) {
+  .product-list .store-buttons {
+    position: static;
+    justify-content: flex-start;
   }
 }
 

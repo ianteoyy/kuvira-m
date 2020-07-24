@@ -12,10 +12,16 @@ h2.section-title {
   margin-bottom: 1em;
 }
 
-.store-buttons {
+.product-list {
   position: relative;
-  top: 80%;
-  left: 55%;
+  .store-buttons {
+    position: absolute;
+    left: 15px; //due to padding on col
+    right: 20px;
+    bottom: 2em;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 button.btn {
@@ -277,6 +283,22 @@ button.btn {
   }
 }
 
+@media (max-width: 991.98px) {
+  .product-list {
+    .store-buttons {
+      bottom: 3em;
+      button {
+        padding: 0.2em 0;
+      }
+      .icon-shopping-bag,
+      .icon-heart {
+        line-height: 0.8;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
 @media (max-width: 767.98px) {
   body {
     font-size: 12px;
@@ -284,6 +306,7 @@ button.btn {
       font-size: 2em;
     }
   }
+
   #new-arrivals-hero > .jumbotron {
     height: 50vh;
     .jumbotron-left {
@@ -305,6 +328,15 @@ button.btn {
         position: static;
         text-align: center;
       }
+    }
+  }
+}
+
+@media (max-width: 329.98px) {
+  .product-list {
+    .store-buttons {
+      position: static;
+      justify-content: flex-start;
     }
   }
 }
