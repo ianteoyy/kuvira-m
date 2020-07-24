@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 $white-color: #ebebeb;
@@ -27,7 +28,7 @@ h2.section-title {
 button.btn {
   border-radius: 2em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .btn-pink {
@@ -45,13 +46,13 @@ button.btn {
 
 .load-more {
   border: 2px solid black;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .description {
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #top-nav-bar {
@@ -79,7 +80,7 @@ button.btn {
     border-radius: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .dropdown-menu-right {
@@ -91,7 +92,7 @@ button.btn {
   > ul > li {
     margin: 0 1rem;
     > a {
-      font-weight: 700;
+      font-weight: 500;
     }
   }
   .new::before {
@@ -105,7 +106,7 @@ button.btn {
     border-radius: 1em;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 
@@ -127,7 +128,7 @@ button.btn {
       .jumbotron-buttons {
         button {
           text-transform: uppercase;
-          font-weight: 700;
+          font-weight: 500;
         }
       }
     }
@@ -138,7 +139,7 @@ button.btn {
       padding-top: 1em;
       align-self: flex-end;
       text-align: center;
-      font-weight: 700;
+      font-weight: 500;
       margin-left: 35%;
       margin-top: auto;
       span {
@@ -216,7 +217,7 @@ button.btn {
 
   .footer-section {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5em;
     ~ * {
       color: #6c757d;
@@ -277,7 +278,7 @@ button.btn {
     a {
       color: $white-color;
       font-size: 0.8em;
-      font-weight: 700;
+      font-weight: 500;
       text-transform: uppercase;
     }
   }
@@ -328,7 +329,7 @@ button.btn {
       }
       button {
         font-size: 1em;
-        font-weight: 700;
+        font-weight: 500;
       }
     }
   }

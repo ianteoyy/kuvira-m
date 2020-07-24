@@ -94,7 +94,8 @@
   /* left or forward direction */
   .active.carousel-item-left + .carousel-item-next.carousel-item-left,
 .carousel-item-next.carousel-item-left + .carousel-item,
-.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
     position: relative;
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
@@ -113,7 +114,8 @@
   /* right or prev direction */
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
 .carousel-item-prev.carousel-item-right + .carousel-item,
-.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
     position: relative;
     transform: translate3d(100%, 0, 0);
     visibility: visible;

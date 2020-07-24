@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h2.section-title {
@@ -25,7 +26,7 @@ h2.section-title {
 button.btn {
   border-radius: 2em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .btn-pink {
@@ -43,13 +44,13 @@ button.btn {
 
 .load-more {
   border: 2px solid black;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .description {
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #top-nav-bar {
@@ -75,7 +76,7 @@ button.btn {
   border-radius: 1em;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 #top-nav-bar .dropdown-menu-right {
   position: absolute;
@@ -85,7 +86,7 @@ button.btn {
   margin: 0 1rem;
 }
 #store-nav > ul > li > a {
-  font-weight: 700;
+  font-weight: 500;
 }
 #store-nav .new::before {
   content: "new";
@@ -98,7 +99,7 @@ button.btn {
   border-radius: 1em;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 #new-arrivals-hero .jumbotron {
@@ -119,7 +120,7 @@ button.btn {
 }
 #new-arrivals-hero .jumbotron .jumbotron-left .jumbotron-buttons button {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 #new-arrivals-hero .jumbotron .jumbotron-right {
   background-color: #f51167;
@@ -128,7 +129,7 @@ button.btn {
   padding-top: 1em;
   align-self: flex-end;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   margin-left: 35%;
   margin-top: auto;
 }
@@ -195,7 +196,7 @@ button.btn {
 }
 #footer .footer-section {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.5em;
 }
 #footer .footer-section ~ * {
@@ -249,7 +250,7 @@ button.btn {
 #footer .social-media-group a {
   color: #ebebeb;
   font-size: 0.8em;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -293,7 +294,7 @@ button.btn {
   }
   #top-selling-products .categories button {
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   #contact-us .container .contact-us-overlay {
