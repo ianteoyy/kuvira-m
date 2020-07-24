@@ -288,6 +288,14 @@ button.btn {
     font-size: 1em;
   }
 
+  #top-selling-products .categories button.btn {
+    padding: unset;
+  }
+  #top-selling-products .categories button {
+    font-size: 1em;
+    font-weight: 700;
+  }
+
   #contact-us .container .contact-us-overlay {
     color: unset;
     position: static;

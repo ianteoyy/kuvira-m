@@ -321,6 +321,18 @@ button.btn {
     }
   }
 
+  #top-selling-products {
+    .categories {
+      button.btn {
+        padding: unset;
+      }
+      button {
+        font-size: 1em;
+        font-weight: 700;
+      }
+    }
+  }
+
   #contact-us {
     .container {
       .contact-us-overlay {
