@@ -234,6 +234,8 @@ button.btn {
 }
 #footer .social-media-group {
   color: #ebebeb;
+  margin-bottom: 1em;
+  margin-right: 2em;
 }
 #footer .social-media-group span {
   font-size: 1.5em;
